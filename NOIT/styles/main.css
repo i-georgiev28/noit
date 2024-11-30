@@ -17,6 +17,9 @@ body{
     --color2: #181818 ;
     --color3: rgb(47, 216, 56);
 }
+.colored, #colored{
+    color: var(--color3);
+}
 /*navigation*/
 .nav-bar{
     width: 100%;

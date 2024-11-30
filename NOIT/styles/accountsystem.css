@@ -1,14 +1,3 @@
-body{
-    border: 0;
-    margin: 0;
-
-    --color1: #FFF ;
-    --color2: #181818 ;
-    --color3: rgb(47, 216, 56); /*Наш цвят */
-}
-.colored{
-    color: var(--color3);
-}
 /*main*/
 .register-box{
     width: fit-content;

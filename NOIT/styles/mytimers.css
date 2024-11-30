@@ -7,9 +7,21 @@
     margin-bottom: 5%;
 }
 .subheading{
+    margin-left: 1.5%;
+    font-size: 2em;
+}
+/*-----timers-----*/
+
+/*поле с всички таймери*/
+#mytimers{
+    display: flex;
+}
+/*част от полето с активни таймери*/
+.active{
 
 }
-#colored{
-    color: var(--color3);
+/*част от полето с неактивни таймери*/
+.unactive{
+    
 }
-/*timers*/
+/*----timers-----*/
