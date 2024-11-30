@@ -1,0 +1,15 @@
+/*mallicous*/
+.heading{
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 300;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.subheading{
+
+}
+#colored{
+    color: var(--color3);
+}
+/*timers*/

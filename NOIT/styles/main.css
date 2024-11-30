@@ -1,3 +1,4 @@
+/*general*/
 *{
     box-sizing: border-box;
     margin: 0;
@@ -14,7 +15,7 @@ body{
     
     --color1: #FFF ;
     --color2: #181818 ;
-    /*--color3: rgb(47, 216, 56); Наш цвят */
+    --color3: rgb(47, 216, 56);
 }
 /*navigation*/
 .nav-bar{
