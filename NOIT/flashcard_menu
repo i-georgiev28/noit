@@ -5,12 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website</title>
 
-    <!--css-->
     <link rel="stylesheet" href="styles/main.css">
-    <link rel = "stylesheet" href = "styles/accountsystem.css">
-
-
-
+    <link rel="stylesheet" href="styles/flashcard_menu.css">
     <!--boxicon icons-->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!--fonts, Open Sans-->
@@ -30,7 +26,7 @@
                     <input type='checkbox' id='check' />
                     <span class="menu">
                         <li><a href="index.html">Начало</a></li>
-                        <li><a href="#">Мойте цели</a></li>
+                        <li><a href="mytimers.html">Мойте цели</a></li>
                         <li><a href="login.html">Влез</a></li>
                         <li><a href="register.html">Регистрирай се</a></li>
                         <label for="check" class="close-menu"><i class='bx bxs-x-circle bx-flip-horizontal' ></i></label>
@@ -40,39 +36,67 @@
             </nav>
             </header>
     </section> 
+
     
     <!--Main-->
     <section>
-        <div class="register-box">
-            <form action = "#">
-                <label for = "emailInputField">Въведете <span class="colored">email</span></label>
-                <input type = "email" id = "emailInputField" required>
-<<<<<<< HEAD
-=======
-               
->>>>>>> tmp
-                <label for = "usernameInputField">Въведете <span class="colored">потребителско име</span></label>
-                <input type = "text" id = "usernameInputField" required>
+        <div class="headings">
+            <p class="heading">
+                Мойте <span class = "colored">карти</span>
+            </p>
+            <br><a href = "create_pack.html" id = "colored"> Нов пакет <i class='bx bxs-add-to-queue'></i></a></p>
+        </div>
+        <div class="list">
+            <div id="my-cardpacks">
+                <!--Лист с flashcards на потребителя-->
+                <div class="cards">
+                    <div class="cardpack">
+                        <p class="cardpack_name">[Flashcard pack name]</p>
+                        <p class="cardpack_stats">cards: <span class="colored">##</span></p>
+                        <p class="cardpack_stats">Subject: <span class="colored">[name]</span> </p>
+                        <p class="cardpack_stats">Difficulty: <span class="colored">Easy</span>/<span id="orange">Medium</span>/<span id="red">Hard</span></p>
+                    </div>
+                </div>
 
-                <label for = "passwordInputField">Въведете <span class="colored">парола</span></label>
-                <input type = "password" id = "passwordInputField" required>
-<<<<<<< HEAD
-            </form>
-            <p>Нямате акаунт? <br><a href = "login.html">Регистрирайте се сега</a></p>
-=======
+                <div class="cards">
+                    <div class="cardpack">
+                        <p class="cardpack_name">[Flashcard pack name]</p>
+                        <p class="cardpack_stats">cards: <span class="colored">##</span></p>
+                        <p class="cardpack_stats">Subject: <span class="colored">[name]</span> </p>
+                        <p class="cardpack_stats">Difficulty: <span class="colored">Easy</span>/<span id="orange">Medium</span>/<span id="red">Hard</span></p>
+                    </div>
+                </div>
 
-                <input type = "submit" value="Влез" action="#" id = "loginSubmit">
-            </form>
-            <p>Нямате акаунт? <br><a href = "register.html">Регистрирайте се сега</a></p>
->>>>>>> tmp
+            </div> 
+
+            <div id="my-cardpacks">
+                <!--Лист с flashcards на потребителя-->
+                <div class="cards">
+                    <div class="cardpack">
+                        <p class="cardpack_name">[Flashcard pack name]</p>
+                        <p class="cardpack_stats">cards: <span class="colored">##</span></p>
+                        <p class="cardpack_stats">Subject: <span class="colored">[name]</span> </p>
+                        <p class="cardpack_stats">Difficulty: <span class="colored">Easy</span>/<span id="orange">Medium</span>/<span id="red">Hard</span></p>
+                    </div>
+                </div>
+
+                <div class="cards">
+                    <div class="cardpack">
+                        <p class="cardpack_name">[Flashcard pack name]</p>
+                        <p class="cardpack_stats">cards: <span class="colored">##</span></p>
+                        <p class="cardpack_stats">Subject: <span class="colored">[name]</span> </p>
+                        <p class="cardpack_stats">Difficulty: <span class="colored">Easy</span>/<span id="orange">Medium</span>/<span id="red">Hard</span></p>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </section>
     
-
     <!--footer-->
     <section>
         <footer class="footer">
-            <p>Вижте също:</p>
+            <p>See also:</p>
             <div class="row">
                 
                 <div class="coloumn">

@@ -1,0 +1,27 @@
+/*mallicous*/
+.heading{
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 300;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.subheading{
+    margin-left: 1.5%;
+    font-size: 2em;
+}
+/*-----timers-----*/
+
+/*поле с всички таймери*/
+#mytimers{
+    display: flex;
+}
+/*част от полето с активни таймери*/
+.active{
+
+}
+/*част от полето с неактивни таймери*/
+.unactive{
+    
+}
+/*----timers-----*/
