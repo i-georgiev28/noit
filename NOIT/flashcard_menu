@@ -44,7 +44,7 @@
             <p class="heading">
                 Мойте <span class = "colored">карти</span>
             </p>
-            <br><a href = "#" id = "colored"> Нов пакет <i class='bx bxs-add-to-queue'></i></a></p>
+            <br><a href = "create_pack.html" id = "colored"> Нов пакет <i class='bx bxs-add-to-queue'></i></a></p>
         </div>
         <div class="list">
             <div id="my-cardpacks">
