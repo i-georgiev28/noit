@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+
+    <!--css-->
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel = "stylesheet" href = "styles/accountsystem.css">
+
+
+
+    <!--boxicon icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--fonts, Open Sans-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <!--js-->
+    <script src="en.json"></script>
+    
+</head>
+<body>
+    <!--navigation-->
+    <section>
+        <header>
+            <nav>
+                <ul class='nav-bar'>
+                    <li class='logo'><a href='#'><img src='images/logo.png'/></a></li>
+                    <input type='checkbox' id='check' />
+                    <span class="menu">
+                        <li><a href="#">Начало</a></li>
+                        <li><a href="#">Мойте цели</a></li>
+                        <li><a href="#">Влез</a></li>
+                        <li><a href="#">Регистрирай се</a></li>
+                        <label for="check" class="close-menu"><i class='bx bxs-x-circle bx-flip-horizontal' ></i></label>
+                    </span>
+                    <label for="check" class="open-menu"><i class='bx bx-menu bx-flip-horizontal'></i></label>
+                </ul>
+            </nav>
+            </header>
+    </section> 
+    
+    <!--Main-->
+    <section>
+        <div class="register-box">
+            <form action = "#">
+                <label for = "emailInputField">Въведете <span class="colored">email</span></label>
+                <input type = "email" id = "emailInputField" required>
+                <label for = "usernameInputField">Въведете <span class="colored">потребителско име</span></label>
+                <input type = "text" id = "usernameInputField" required>
+
+                <label for = "passwordInputField">Въведете <span class="colored">парола</span></label>
+                <input type = "password" id = "passwordInputField" required>
+            </form>
+            <p>Или имате акаунт? <a href = "login.html">Влезте сега</a></p>
+        </div>
+    </section>
+    
+
+    <!--footer-->
+    <section>
+        <footer class="footer">
+            <p>See also:</p>
+            <div class="row">
+                
+                <div class="coloumn">
+                    <ul>
+                        <p>За проекта</p>
+                        <li><a href="#">Използвани APIs</a></li>
+                        <li><a href="#">Изображения</a></li>
+                        <li><a href="#">Други</a></li>
+                    </ul>
+                </div>
+                <!--ще го махнем, ако няма за какво да го използваме-->
+                <div class="coloumn">
+                    <ul>
+                        <p>Social media</p>
+                        
+                        <li>
+                            <a href="#">
+                                Instagram 
+                                <span id = "social_margin"><i class='bx bxl-instagram' ></i></span>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="#">
+                                Facebook 
+                                <span id = "social_margin"><i class='bx bxl-facebook' ></i></i></span>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="#">
+                                TikTok 
+                                <span id = "social_margin"><i class='bx bxl-tiktok' ></i></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </footer>
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,76 @@
+body{
+    border: 0;
+    margin: 0;
+
+    --color1: #FFF ;
+    --color2: #181818 ;
+    --color3: rgb(47, 216, 56); /*Наш цвят */
+}
+.colored{
+    color: var(--color3);
+}
+/*main*/
+.register-box{
+    width: fit-content;
+    height: fit-content;
+    
+    background-color: var(--color1);
+    border-radius: 30px;
+    
+    align-self: center;
+    justify-self: center;
+
+    margin: 7%;
+    padding: 5%;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    font-size: 2.4em;
+    
+
+    box-shadow: 0px 8px 16px 8px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+.register-box p a{
+    text-decoration: none;
+    color: var(--color3);
+}
+.register-box form input{
+    border: none;
+    border-radius: 30px;
+    padding: 5%;
+    box-shadow: 0px 4px 8px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+    height: 70px;
+    
+    font-size: 2rem;
+    font-weight: 200;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+/*reponsive*/
+@media (max-width: 610px) {
+    .register-box {
+        padding: 4%;
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 580px) {
+    .register-box {
+        padding: 3%;
+        font-size: 1.6em;
+    }
+}
