@@ -60,6 +60,15 @@ form {
     font-weight: 300;
     font-style: normal;
 }
+/*submit button*/
+#loginSubmit , #registerSubmit{
+    background-color: var(--color3);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-weight: 400;
+}
 /*reponsive*/
 @media (max-width: 610px) {
     .register-box {
