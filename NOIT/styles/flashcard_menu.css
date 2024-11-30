@@ -1,14 +1,26 @@
+/*the heading itself*/
 .heading{
-    text-align: center;
     font-size: 5rem;
     font-weight: 300;
+}
+/*the headings box*/
+.headings{
+    display: flex;
+    flex-direction: column;
     margin-top: 5%;
     margin-bottom: 5%;
+    margin-left: 8%;
 }
+#colored{
+    margin-top: 1%;
+    margin-left: 0.5%;
+}
+/*-----------------*/
 .subheading{
     margin-left: 1.5%;
     font-size: 2em;
     margin-top: 4%;
+    margin-left: 50%;
 }
 /*flashcards*/
 #my-cardpacks{
@@ -18,14 +30,15 @@
 .cards{
     display: flex;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 .cardpack{
     display: flex;
     flex-direction: column;
     
     
-    width: 50%;
+    width: 70%;
+    aspect-ratio: 2/1;
     border-radius: 20px;
     height: auto;
     
@@ -35,7 +48,7 @@
     
     justify-content: space-between;
     
-    margin-top: 2%;
+    margin-top: 5%;
     margin-left: 3%;
 }
 .cardpack_name{
@@ -47,5 +60,4 @@
 }
 #colored{
     font-size: 2em;
-    margin-left: 14%;
 }
