@@ -20,6 +20,12 @@ body{
 .colored, #colored{
     color: var(--color3);
 }
+#red{
+    color: #d30000;
+}
+#orange{
+    color: #fdad00;
+}
 /*navigation*/
 .nav-bar{
     width: 100%;
