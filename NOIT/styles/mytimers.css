@@ -1,8 +1,9 @@
 /*mallicous*/
 .heading{
-    text-align: center;
+    text-align: left;
     font-size: 5rem;
     font-weight: 300;
+    margin-left: 2%;
     margin-top: 5%;
     margin-bottom: 5%;
 }
@@ -16,12 +17,37 @@
 #mytimers{
     display: flex;
 }
-/*част от полето с активни таймери*/
-.active{
 
+/*fixes*/
+#tasks_previous_windows:hover, #tasks_next_windows:hover{
+    color: black;
 }
-/*част от полето с неактивни таймери*/
-.unactive{
-    
+
+
+.tasks{
+    width: fit-content;
+    height: fit-content;
+    margin: 1.5%;
+    background-color: rgb(73, 163, 241);
+
+    border-radius: 30px;
+    padding: 25px;
+    padding-left: 30px;
+    color: white;
+
+    font-size: 2.5em;
+    font-weight: 400;
 }
-/*----timers-----*/
+
+.box{
+    margin-bottom: 7%;
+    margin-top: 7%;
+}
+.tasks_box_contetnts{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.tasks_box_contetnts p {
+    margin-top: 20px;
+}
+/*icons*/
