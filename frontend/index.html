@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doc</title>
+  <script type="module" src="./js/script.js"></script>
+  <link rel="stylesheet" href="./css/style.css">
+
+
+  <!-- TEST -->
+  <script src='https://cdn.jsdelivr.net/npm/@fullcalendar/core@6.1.15/index.global.min.js'></script>
+  <script src='https://cdn.jsdelivr.net/npm/@fullcalendar/web-component@6.1.15/index.global.min.js'></script>
+  <script src='https://cdn.jsdelivr.net/npm/@fullcalendar/daygrid@6.1.15/index.global.min.js'></script>
+</head>
+<body>
+    <nav>
+
+        <a href="#" id="logo">
+            AppName
+        </a>
+        <a href="#" id="profile">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fyt3.ggpht.com%2Fa%2FAATXAJzsHPys1EoSnxprcPapwsQsb1gr97KzKfnRBw%3Ds900-c-k-c0xffffffff-no-rj-mo&f=1&nofb=1&ipt=b08ac170290eb1601b5bfb06ed478d872aba0a67c87a8e83a4df2bda206a5a26&ipo=images"
+            alt="" srcset="">
+        </a>
+
+        <a href="#" id="new">+</a>
+        <a href="#" id="notifications">&#128276;</a>
+    </nav>
+    <main>
+    <full-calendar shadow options='{
+        "headerToolbar": {
+          "left": "prev,next",
+          "center": "title",
+          "right": "dayGridMonth,dayGridWeek"
+        }
+      }' />
+    </main>
+</body>
+</html>
